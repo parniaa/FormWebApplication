@@ -1,0 +1,51 @@
+ 	
+USE [db_Armin]
+GO
+
+CREATE TABLE [dbo].[Form](
+	[FormId] [nchar](10) NULL,
+	[Name] [varchar](20) NULL,
+	[Description] [varchar](100) NULL,
+	[Date] [date] NULL
+)
+GO
+
+
+
+USE [db_Armin]
+GO
+
+INSERT INTO [dbo].[Form]
+           ([FormId]
+           ,[Name]
+           ,[Description]
+           ,[Date])
+     VALUES
+           ("farhad","ds","2018-2328190")
+GO
+
+USE [db_Armin]
+GO
+
+INSERT INTO [dbo].[Form]
+           ([FormId]
+           ,[Name]
+           ,[Description]
+           ,[Date])
+     VALUES
+           ("arms","dss","2012-2328190")
+GO
+
+USE [db_Armin]
+GO
+
+INSERT INTO [dbo].[Form]
+           ([FormId]
+           ,[Name]
+           ,[Description]
+           ,[Date])
+     VALUES
+           ("hads","das","2011-2328190")
+GO
+
+
